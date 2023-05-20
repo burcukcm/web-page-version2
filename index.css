@@ -1,0 +1,133 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Kolonları ayarla */
+    grid-template-rows: auto 1fr auto; /* Sıraları ayarla */
+    grid-gap: 10px; /* Kutular arasındaki boşluk */
+  }
+  .header {
+    text-align: center;
+    background-color: #f2f2f2;
+    grid-column: 1 / 4; /* Tüm kolonları kapla */
+    padding: 20px;
+    border-style: solid;
+    border-radius: 27px;
+  }
+  img{ /* LOGO RESMİ ÖZELLİKLERİ */
+    padding-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+  }
+  #resim2{
+    padding-left: 10px; /* Sol resim ile sağ resim arasına boşluk koydum */
+  }
+  #ortaicerik{
+    width: 200px;
+    padding-left: 55px;
+    padding-top: 50px;
+  }
+  h1{ /* İLK BAŞLIK HARİÇ GENEL BÜYÜK BAŞLIKLARIN STİLİNİ BELİRLEDİĞİM KISIM*/
+    font-weight: 300;
+     font-style:normal;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color:brown;
+  }
+  #paragraf1{
+        text-decoration: double;
+        font-style: italic;
+        font-variant: inherit;
+  }
+    p{
+        font-weight: 50;
+  }
+  .link-kutusu {
+    text-align: center;
+    grid-column: 1 / 4; /* Tüm kolonları kapla */
+    padding: 20px;
+    border-style: solid;
+    border-radius: 27px;
+    background-color: #eee9ed;
+    padding: 10px;
+    text-align: center; 
+  }
+  .link {
+    color: #333;
+    text-decoration: none;
+  }
+  #liste{
+   list-style-type: none;
+   display: flex;
+   border-width: 2px;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+  }
+  #liste li {
+    border: 3px solid #73AD21;
+    background-color: #e4eed1;
+    border-radius: 20px;
+    padding: 6px;
+    margin: 5px 10px;
+  }
+  #liste li a{
+  font-weight: bolder;
+   margin: 2px 5px;
+    text-decoration: none;
+  } 
+  img{
+    width: 100px;
+  }
+  .menu { /*ORTADA KALAN SOL KISIMIN ÖZELLİKLERİ */
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-style:solid;
+    border-radius: 27px;
+  }
+  .content { /*ORTA KISIM*/
+    background-color: #fcf9eeb4;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 27px;
+  }
+  .content p{ /*ORTA KISMIN PARAGRAF ÖZELLİKLERİ*/
+    border-style: solid;
+    border-radius:27px ;
+    padding: 10px;
+  }
+  .sidebar { /* EN SAĞ KISIM */
+   max-height: 1000px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 27px;
+  }
+  #sidebarimg{
+    float: left;
+    width: 150px;
+  }
+  .sidebar a{
+    text-decoration: none;
+  }
+  .footer {
+    height: 10px;
+    background-color: #eaeaea;
+    text-align: center;
+    padding: 20px;
+    border-radius: 27px;
+    border-style: solid;
+    margin-top: 10px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+  
+
+ 
+  
+ 
+  
